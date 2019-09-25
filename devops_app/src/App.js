@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import NatherciaG from './NatherciaG';
+import MauricioS from './MauricioS';
+import DavidR from './DavidR';
+import DavidA from './DavidA';
 import William from './William'
 
 function App() {
@@ -9,6 +13,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <William /> 
+        <NatherciaG/> 
+        <DavidR />
+        <DavidA />
+        <MauricioS />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
