@@ -1,19 +1,14 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import DavidR from './DavidR';
-
-import MauricioS from './MauricioS';
-import DavidA from './DavidA';
+import NatherciaG from './NatherciaG';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <MauricioS />
-        <DavidA />
-        <DavidR />
+        <NatherciaG/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
