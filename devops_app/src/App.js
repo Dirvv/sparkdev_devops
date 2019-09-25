@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import DavidR from './DavidR';
 
 import MauricioS from './MauricioS';
 import DavidA from './DavidA';
@@ -12,6 +13,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <MauricioS />
         <DavidA />
+        <DavidR />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
