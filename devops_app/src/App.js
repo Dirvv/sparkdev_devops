@@ -2,6 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import JuanS from './JuanC';
+import NatherciaG from './NatherciaG';
+import MauricioS from './MauricioS';
+import DavidR from './DavidR';
+import DavidA from './DavidA';
+import William from './William'
 
 function App() {
   return (
@@ -9,6 +14,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <JuanS />
+        <William /> 
+        <NatherciaG/> 
+        <DavidR />
+        <DavidA />
+        <MauricioS />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
