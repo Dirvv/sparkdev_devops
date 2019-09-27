@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import JuanS from './JuanC';
+import JuanC from './JuanC';
 import NatherciaG from './NatherciaG';
 import MauricioS from './MauricioS';
 import DavidR from './DavidR';
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <JuanS />
+        <JuanC />
         <William /> 
         <NatherciaG/> 
         <DavidR />
