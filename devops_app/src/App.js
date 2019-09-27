@@ -9,13 +9,13 @@ import DavidR from './DavidR';
 import DavidA from './DavidA';
 import William from './William';
 import AndreM from './AndreM'
+import RandolphA from './RandolphA';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-<<<<<<< HEAD
         <JuanC />
         <William /> 
         <NatherciaG/> 
@@ -23,9 +23,8 @@ function App() {
         <DavidA />
         <MauricioS />
         <AndreM />
-=======
         <Adrian></Adrian>
->>>>>>> adrians
+        <RandolphA />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
