@@ -9,6 +9,7 @@ import DavidR from './DavidR';
 import DavidA from './DavidA';
 import William from './William';
 import AndreM from './AndreM'
+import RandolphA from './RandolphA';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <MauricioS />
         <AndreM />
         <Adrian></Adrian>
+        <RandolphA />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
