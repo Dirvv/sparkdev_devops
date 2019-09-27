@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Adrian from './AdrianS';
 import './App.css';
 import JuanC from './JuanC';
 import NatherciaG from './NatherciaG';
@@ -14,6 +15,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+<<<<<<< HEAD
         <JuanC />
         <William /> 
         <NatherciaG/> 
@@ -21,6 +23,9 @@ function App() {
         <DavidA />
         <MauricioS />
         <AndreM />
+=======
+        <Adrian></Adrian>
+>>>>>>> adrians
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
