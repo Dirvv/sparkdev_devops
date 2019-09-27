@@ -6,7 +6,8 @@ import NatherciaG from './NatherciaG';
 import MauricioS from './MauricioS';
 import DavidR from './DavidR';
 import DavidA from './DavidA';
-import William from './William'
+import William from './William';
+import AndreM from './AndreM'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <DavidR />
         <DavidA />
         <MauricioS />
+        <AndreM />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
