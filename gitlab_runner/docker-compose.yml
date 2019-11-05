@@ -1,0 +1,12 @@
+---
+gitlab-runner:
+  image: "gitlab/gitlab-runner:latest"
+  restart: always
+  # the following are hints on what volumes to mount if you want to persist data
+  volumes:
+    # /Users/Shared -> /srv on linux
+    - /Users/Shared/gitlab-runner/config:/etc/gitlab-runner
+    - /var/run/docker.sock:/var/run/docker.sock
+#    - data/gitlab/config:/etc/gitlab:rw
+#    - data/gitlab/logs:/var/log/gitlab:rw
+#    - data/gitlab/data:/var/opt/gitlab:rw

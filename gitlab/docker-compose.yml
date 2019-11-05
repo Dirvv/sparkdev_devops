@@ -1,8 +1,8 @@
 ---
 gitlab:
-  image: 'gitlab/gitlab-ce:latest'
+  image: "gitlab/gitlab-ce:latest"
   restart: always
-  hostname: 'gitlab.example.com'
+  hostname: "172.17.0.5"
   links:
     - postgresql:postgresql
     - redis:redis
@@ -19,7 +19,7 @@ gitlab:
       redis['enable'] = false
       gitlab_rails['redis_host'] = 'redis'
       gitlab_rails['redis_port'] = '6379'
-      external_url 'http://gitlab.example.com:30080'
+      external_url 'http://172.17.0.5:30080'
       gitlab_rails['gitlab_shell_ssh_port'] = 30022
   ports:
     # both ports must match the port from external_url above
