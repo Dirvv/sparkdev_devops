@@ -12,6 +12,7 @@ before_script:
 build:
   stage: build
   script:
+    - cd gitlab
 #    - docker-compose down
     - docker-compose build
 #    - docker-compose up tester-image
