@@ -1,6 +1,6 @@
 # .gitlab-ci.yml
 
-image: docker:latest
+image: docker/compose:latest
 
 services:
   - docker:dind
